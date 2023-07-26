@@ -1,4 +1,4 @@
-# Transaction Upload App
+# Transaction Upload App - This is a challenge by Coodesh
 
 This is a web application for uploading and managing transactions. It allows users to upload a file containing transaction data, parses and normalizes the data, stores it in a relational database, and provides functionality to view transactions by seller and the total sales for each seller.
 
@@ -52,31 +52,31 @@ Create a new database called transaction_db and set up the necessary table to st
 
 The repository is structured as follows:
 
-|-- backend/
-|   |-- __tests__/
-|   |   |-- app.test.js
-|   |-- uploads/
-|-- frontend/
-|   |-- __tests__/
-|   |   |-- app.test.js
-|   |-- index.html
-|   |-- styles.css
-|   |-- app.js
-|-- Dockerfile
-|-- sales.txt
-|-- docker-compose.yml
-|-- package.json
-|-- app.js
-|-- utils.js
+    |-- backend/
+    |   |-- __tests__/
+    |   |   |-- app.test.js
+    |   |-- uploads/
+    |-- frontend/
+    |   |-- __tests__/
+    |   |   |-- app.test.js
+    |   |-- index.html
+    |   |-- styles.css
+    |   |-- app.js
+    |-- Dockerfile
+    |-- sales.txt
+    |-- docker-compose.yml
+    |-- package.json
+    |-- app.js
+    |-- utils.js
 
-    - The backend/ directory contains the backend code for processing and storing transactions, as well as unit tests for the backend in the __tests__/ subdirectory.
-    - The frontend/ directory contains the frontend code, including the HTML, CSS, and JavaScript files, as well as unit tests for the frontend in the __tests__/ subdirectory.
-    - The Dockerfile is used to create a Docker image for the backend service.
-    - The sales.txt file is an example file containing transaction data.
-    - The docker-compose.yml file defines the services and their configurations for running the application using Docker.
-    - The package.json file contains the dependencies and scripts for the backend.
-    - The app.js file in the root directory is the entry point for the backend server.
-    - The utils.js file contains utility functions for parsing and handling transaction data.
+- The backend/ directory contains the backend code for processing and storing transactions, as well as unit tests for the backend in the __tests__/ subdirectory.
+- The frontend/ directory contains the frontend code, including the HTML, CSS, and JavaScript files, as well as unit tests for the frontend in the __tests__/ subdirectory.
+- The Dockerfile is used to create a Docker image for the backend service.
+- The sales.txt file is an example file containing transaction data.
+- The docker-compose.yml file defines the services and their configurations for running the application using Docker.
+- The package.json file contains the dependencies and scripts for the backend.
+- The app.js file in the root directory is the entry point for the backend server.
+- The utils.js file contains utility functions for parsing and handling transaction data.
 
 ## Testing
 
