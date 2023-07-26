@@ -1,0 +1,38 @@
+# Ignore node_modules folder (contains installed dependencies)
+node_modules/
+
+# Ignore files generated during development or build
+dist/
+build/
+*.log
+*.log.*
+
+# Ignore database files
+data/
+
+# Ignore uploaded files
+backend/uploads/
+
+# Ignore operating system specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore user-specific settings file
+.editorconfig
+
+# Ignore IDE or code editor files
+.vscode/
+.idea/
+
+# Ignore Docker specific files
+.dockerignore
+.docker/
+docker-compose.yml
