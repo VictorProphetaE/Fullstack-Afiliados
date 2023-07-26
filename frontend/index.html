@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Transaction Upload App</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">Transaction Upload App</h1>
+    <div class="my-4">
+      <input type="file" id="fileInput" class="mr-2">
+      <button class="btn btn-primary" onclick="uploadFile()">Upload</button>
+      <div id="message" class="mt-2"></div>
+    </div>
+
+    <h2 class="my-4">Transactions by Seller</h2>
+    <div class="my-4">
+      <label for="sellerInput">Seller:</label>
+      <input type="text" id="sellerInput" class="mr-2">
+      <button class="btn btn-primary" onclick="getTransactions()">Get Transactions</button>
+      <div id="transactions" class="mt-2"></div>
+    </div>
+
+    <h2 class="my-4">All Transactions</h2>
+    <div class="my-4">
+      <button class="btn btn-primary" onclick="getAllTransactionsGroupedBySeller()">Get All Transactions</button>
+      <div id="allTransactions" class="mt-2"></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
