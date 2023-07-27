@@ -96,4 +96,4 @@ To run the tests, use the following command:
 
 The Transaction Upload App is a simple application that allows users to upload transaction data and view it by seller or all transactions grouped by seller. The app uses Node.js, Express.js, and MySQL on the backend, while the front-end is styled with Bootstrap. It provides an easy way to manage transaction data and gain insights into sales for different sellers.
 
-Watch the video [Watch the video](https://www.loom.com/share/5ec646cde1a14a5fb0f0e150c63d532f?sid=f19bbc27-cff7-4d24-8a8e-8bd023277890)
+Watch the video [Link](https://www.loom.com/share/5ec646cde1a14a5fb0f0e150c63d532f?sid=f19bbc27-cff7-4d24-8a8e-8bd023277890)
